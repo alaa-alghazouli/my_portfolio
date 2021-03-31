@@ -69,7 +69,7 @@
           <li><a href="#contact"><i class="bx bx-envelope"></i> Kontakt</a></li>
 
         </ul>
-      </nav><!-- .nav-menu -->
+      </nav><!-- nav-menu -->
       <button type="button" class="mobile-nav-toggle d-xl-none"><i class="icofont-navigation-menu"></i></button>
 
     </div>
@@ -188,6 +188,41 @@
           <div class="col-lg-6" data-aos="fade-up">
 
             <div class="progress">
+              <img align="left" alt="PHP" width="26px" src="https://pics.freeicons.io/uploads/icons/png/2132470731553750209-512.png" />
+              <span class="skill">&nbsp; PHP <i class="val">50%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <img align="left" alt="JavaScript" width="26px" src="https://pics.freeicons.io/uploads/icons/png/13691885491579517854-512.png" />
+              <span class="skill">&nbsp; JavaScript <i class="val">30%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <img align="left" alt="MySQL" width="26px" src="https://pics.freeicons.io/uploads/icons/png/19218518301553750371-512.png" />
+              <span class="skill">&nbsp; MySQL <i class="val">30%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <img align="left" alt="MySQL" width="26px" src="https://pics.freeicons.io/uploads/icons/png/378554371540553613-512.png" />
+              <span class="skill">&nbsp; JAVA <i class="val">20%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+
+            <div class="progress">
               <img align="left" alt="Laravel" width="26px" src="https://pics.freeicons.io/uploads/icons/png/4255628001553750224-512.png" />
               <span class="skill">&nbsp; LARAVEL <i class="val">40%</i></span>
               <div class="progress-bar-wrap">
@@ -218,35 +253,6 @@
                 <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
               </div>
             </div>
-
-          </div>
-
-          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
-
-            <div class="progress">
-              <img align="left" alt="PHP" width="26px" src="https://pics.freeicons.io/uploads/icons/png/2132470731553750209-512.png" />
-              <span class="skill">&nbsp; PHP <i class="val">50%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div>
-
-            <div class="progress">
-              <img align="left" alt="MySQL" width="26px" src="https://pics.freeicons.io/uploads/icons/png/19218518301553750371-512.png" />
-              <span class="skill">&nbsp; MySQL <i class="val">30%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div>
-
-            <div class="progress">
-              <img align="left" alt="MySQL" width="26px" src="https://pics.freeicons.io/uploads/icons/png/378554371540553613-512.png" />
-              <span class="skill">&nbsp; JAVA <i class="val">20%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div>
-
           </div>
 
         </div>
