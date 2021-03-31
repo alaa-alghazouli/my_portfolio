@@ -46,12 +46,15 @@
 
       <div class="profile">
         <img src="assets/img/profile-img.jpg" alt="" class="img-fluid rounded-circle">
-        <h1 class="text-light"><a href="index.html">Alaa Alghazouli</a></h1>
+        <h1 class="text-light"><a href="#">Alaa Alghazouli</a></h1>
         <div class="social-links mt-3 text-center">
           <!-- <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a> -->
+          <a href="https://github.com/alaa-alghazouli" class="github" target="_blank"><i class="bx bxl-github"></i></a>
+          <a href="https://linkedin.com/in/alaa-alghazouli-1608b620a" class="linkedin" target="_blank"><i class="bx bxl-linkedin"></i></a>
+          <br>
+          <a href="https://wa.me/4917634506606" class="whatsapp" target="_blank"><i class="bx bxl-whatsapp"></i></a>
           <a href="https://www.facebook.com/alaa.alghazouli.92" class="facebook" target="_blank"><i class="bx bxl-facebook"></i></a>
           <a href="https://www.instagram.com/al_alghazouli/" class="instagram" target="_blank"><i class="bx bxl-instagram"></i></a>
-          <a href="https://wa.me/4917634506606" class="google-plus" target="_blank"><i class="bx bxl-whatsapp"></i></a>
           <!-- <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a> -->
         </div>
       </div>
@@ -185,28 +188,32 @@
           <div class="col-lg-6" data-aos="fade-up">
 
             <div class="progress">
-              <span class="skill">LARAVEL <i class="val">40%</i></span>
+              <img align="left" alt="Laravel" width="26px" src="https://pics.freeicons.io/uploads/icons/png/4255628001553750224-512.png" />
+              <span class="skill">&nbsp; LARAVEL <i class="val">40%</i></span>
               <div class="progress-bar-wrap">
                 <div class="progress-bar" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"></div>
               </div>
             </div>
 
             <div class="progress">
-              <span class="skill">HTML <i class="val">70%</i></span>
+              <img align="left" alt="HTML5" width="26px" src="https://pics.freeicons.io/uploads/icons/png/19266256861579517850-512.png" />
+              <span class="skill">&nbsp; HTML <i class="val">70%</i></span>
               <div class="progress-bar-wrap">
                 <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
               </div>
             </div>
 
             <div class="progress">
-              <span class="skill">CSS <i class="val">30%</i></span>
+              <img align="left" alt="CSS3" width="26px" src="https://pics.freeicons.io/uploads/icons/png/632690741557997006-512.png" />
+              <span class="skill">&nbsp; CSS <i class="val">30%</i></span>
               <div class="progress-bar-wrap">
                 <div class="progress-bar" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"></div>
               </div>
             </div>
 
             <div class="progress">
-              <span class="skill">PHOTOSHOP <i class="val">75%</i></span>
+              <img align="left" alt="Photoshop" width="26px" src="https://pics.freeicons.io/uploads/icons/png/10139184471591557584-512.png" />
+              <span class="skill">&nbsp; PHOTOSHOP <i class="val">75%</i></span>
               <div class="progress-bar-wrap">
                 <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
               </div>
@@ -217,21 +224,24 @@
           <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
 
             <div class="progress">
-              <span class="skill">PHP <i class="val">50%</i></span>
+              <img align="left" alt="PHP" width="26px" src="https://pics.freeicons.io/uploads/icons/png/2132470731553750209-512.png" />
+              <span class="skill">&nbsp; PHP <i class="val">50%</i></span>
               <div class="progress-bar-wrap">
                 <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
               </div>
             </div>
 
             <div class="progress">
-              <span class="skill">MySQL <i class="val">30%</i></span>
+              <img align="left" alt="MySQL" width="26px" src="https://pics.freeicons.io/uploads/icons/png/19218518301553750371-512.png" />
+              <span class="skill">&nbsp; MySQL <i class="val">30%</i></span>
               <div class="progress-bar-wrap">
                 <div class="progress-bar" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"></div>
               </div>
             </div>
 
             <div class="progress">
-              <span class="skill">JAVA <i class="val">20%</i></span>
+              <img align="left" alt="MySQL" width="26px" src="https://pics.freeicons.io/uploads/icons/png/378554371540553613-512.png" />
+              <span class="skill">&nbsp; JAVA <i class="val">20%</i></span>
               <div class="progress-bar-wrap">
                 <div class="progress-bar" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100"></div>
               </div>
@@ -351,96 +361,18 @@
 
         <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="100">
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/1.jpg" class="img-fluid" alt="">
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/1.jpg" data-gall="portfolioGallery" class="venobox" title=""><i class="bx bxs-slideshow"></i></a>
-              </div>
-            </div>
-          </div>
+          @for ($i = 1; $i < 11; $i++)
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web"><!--web = andere-->
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/2.jpg" class="img-fluid" alt="">
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/2.jpg" data-gall="portfolioGallery" class="venobox" title=""><i class="bx bxs-slideshow"></i></a>
+            <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+              <div class="portfolio-wrap">
+                <img src="assets/img/portfolio/{{ $i }}.jpg" class="img-fluid" alt="">
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/{{ $i }}.jpg" data-gall="portfolioGallery" class="venobox" title=""><i class="bx bxs-slideshow"></i></a>
+                </div>
               </div>
             </div>
-          </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card"><!--card=meine familie-->
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/3.jpg" class="img-fluid" alt="">
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/3.jpg" data-gall="portfolioGallery" class="venobox" title=""><i class="bx bxs-slideshow"></i></a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app"><!--app = ich-->
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/4.jpg" class="img-fluid" alt="">
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/4.jpg" data-gall="portfolioGallery" class="venobox" title=""><i class="bx bxs-slideshow"></i></a>
-                <!--<a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>-->
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/5.jpg" class="img-fluid" alt="">
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/5.jpg" data-gall="portfolioGallery" class="venobox" title=""><i class="bx bxs-slideshow"></i></a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/6.jpg" class="img-fluid" alt="">
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/6.jpg" data-gall="portfolioGallery" class="venobox" title=""><i class="bx bxs-slideshow"></i></a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/7.jpg" class="img-fluid" alt="">
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/7.jpg" data-gall="portfolioGallery" class="venobox" title=""><i class="bx bxs-slideshow"></i></a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/8.jpg" class="img-fluid" alt="">
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/8.jpg" data-gall="portfolioGallery" class="venobox" title=""><i class="bx bxs-slideshow"></i></a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/9.jpg" class="img-fluid" alt="">
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/9.jpg" data-gall="portfolioGallery" class="venobox" title=""><i class="bx bxs-slideshow"></i></a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/10.jpg" class="img-fluid" alt="">
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/10.jpg" data-gall="portfolioGallery" class="venobox" title=""><i class="bx bxs-slideshow"></i></a>
-              </div>
-            </div>
-          </div>
+          @endfor
 
         </div>
 
